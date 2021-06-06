@@ -1,0 +1,10 @@
+#!/bin/bash
+# Uncomment to exit if any command fails
+#set -eo pipefail
+# Virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME
+source /usr/local/bin/virtualenvwrapper.sh
+# Activate venv & crawl
+workon nepremicnine
+scrapy crawl parcela-pomurje

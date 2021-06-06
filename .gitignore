@@ -1,0 +1,4 @@
+# Ignore
+cron.sh
+nepremicninespider/secrets.py
+nepremicninespider/__pycache__/
