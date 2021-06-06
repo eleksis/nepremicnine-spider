@@ -7,4 +7,4 @@ export PROJECT_HOME=$HOME
 source /usr/local/bin/virtualenvwrapper.sh
 # Activate venv & crawl
 workon nepremicnine
-scrapy crawl parcela-pomurje
+scrapy crawl parcele-pomurje
